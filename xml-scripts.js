@@ -197,9 +197,6 @@ function changedField() {
     let q = $("#searchfield").val()
     let topic = $("#topicfield option:selected").val()
     let sort = $("#sortbyfield option:selected").val()
-    console.log(q)
-    console.log(topic)
-    console.log(sort)
     fillSearchResults(q, convertString(topic), convertString(sort));
 }
 
